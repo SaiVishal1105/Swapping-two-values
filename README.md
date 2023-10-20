@@ -18,8 +18,21 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+``````
+# Program to swap two values.
+# Developed by: Sai Vishal D 
+# RegisterNumber: 23013576
 
+n=int(input())
+y=int(input())
+a=n
+n=y
+y=a
+print("Swapped values are: {} {}".format(n,y)) 
+``````
 
+## OUTPUT:
+![Alt text](<Screenshot 2023-10-20 093458.png>)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
